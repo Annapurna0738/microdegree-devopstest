@@ -1,0 +1,19 @@
+CODE
+
+sudo su -
+yum intall git -y
+mkdir microdegree
+cd microdegree
+touch test.txt
+git init
+git remote add origin https://github.com/Annapurna0738/microdegree-devopstest.git
+git checkout -b staging
+git status
+git add test.txt
+git status
+git commit -m "test.txt file is added"
+git push -u origin staging
+     adding username
+     adding password
+succesfully pushed 
+
