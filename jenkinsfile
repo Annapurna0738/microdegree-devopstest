@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('simple hello program'){
             steps{
-                echo"Hello Abhishek"
+                echo"Hello Abhishek Anu"
             }
         }
     }
