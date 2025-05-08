@@ -1,1 +1,1 @@
-yum install git -y
+yum install httpd -y
